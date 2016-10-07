@@ -1,0 +1,66 @@
+body {
+      background-image: url(media/grilled.png);
+}
+ @media screen and (min-width: 768px)
+ {
+     .rwd-break {display:none;}
+}
+.cfieldset{
+    
+}
+.Flag {
+  color:crimson;
+}
+@media only screen and (orientation: landscape)
+{
+    #cardPics1
+{
+    height: auto;
+    max-width: 75%;
+}
+#cardPics2
+{
+    height: auto;
+    max-width: 75%;
+}
+#cardPics3
+{
+    height: auto;
+    max-width: 75%;
+}
+}
+
+#sHeader {
+    /*background-color: rgba(207,226,199,.85) !important; */
+    padding-bottom: 15px !important;
+    box-shadow: 0 0 7px #777777;
+}
+#sCard1 {
+    background-color: white;
+}
+#sCard2 {
+    background-color: white;
+}
+#sCard3 {
+    background-color: white;
+}
+#headerText{
+   margin-bottom: -10px;
+} 
+
+#cardPics1
+{
+    max-height: 160px;
+    width: auto;
+}
+
+#cardPics2
+{
+    max-height: 160px;
+    width: auto;
+}
+#cardPics3
+{
+    max-height: 160px;
+    width: auto;
+}
